@@ -36,6 +36,8 @@ I wanted a program to watch and react to changes, but didn't want to install som
 
 So I spent a whopping five minutes building this.
 
+An explanation of the pathetically minimal code can be found [here](https://shatterealm.netlify.app/programming/2021_03_23_lets_build_a_file_watcher) if you're thinking of making it more robust.
+
 ---
 
 # License

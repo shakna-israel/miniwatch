@@ -13,6 +13,8 @@ int main(int argc, char* argv[]) {
 		return 1;
 	}
 
+	char* filename = argv[1];
+
 	char** array = calloc(argc + 2, sizeof(char*));
 	int pos = 0;
 
@@ -44,7 +46,7 @@ int main(int argc, char* argv[]) {
 
 	while(true) {
 		// Check if file/dir modified...
-		stat(argv[1], &sfile);
+		stat(filename, &sfile);
 		current_time = sfile.st_mtime;
 
 		if(difftime(old_time, current_time) < 0) {
