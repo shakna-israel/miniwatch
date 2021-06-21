@@ -1,4 +1,4 @@
-#define _XOPEN_SOURCE 500
+#define _XOPEN_SOURCE 501
 
 #include <stdlib.h>
 #include <unistd.h>
